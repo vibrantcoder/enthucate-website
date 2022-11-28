@@ -1,0 +1,229 @@
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
+    .header-menu li {
+        margin: 0 15px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 1024px) {
+    .slide-text {
+        padding-top: 5%;
+    }
+    .how-it-works-main {
+        padding: 50px 0;
+    }
+    .our-partners-main {
+        padding: 50px 0;
+    }
+    .contact-form, .lets-talk-main {
+        padding: 50px 30px;
+    }
+    .mobile-menu-btn, .mobile-logo {
+        display: flex;
+    }
+    .header-menu {
+        position: fixed;
+        top: 0;
+        left: -280px;
+        width: 280px;
+        background-color: #fff;
+        overflow: auto;
+        z-index: 9;
+        bottom: 0;
+        padding:19px  15px;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+    .mobile-logo {
+        margin-bottom: 30px;
+    }
+    .open .header-menu {
+        left: 0;
+    }
+    .header-menu li {
+        margin: 0;
+        width: 100%;
+    }
+    .header-menu li a{
+        display: flex;
+        padding: 15px 0;
+        border-bottom: 1px solid #f2f0f0;
+    }
+    .school-connect-main {
+        padding: 50px 0; 
+    }
+    .contact-form h3, .lets-talk-main h3 {
+        font-size: 28px;
+    }
+    .our-partners-content h3 {
+        font-size: 28px;
+    }
+    .how-it-title h3 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .school-connect-title h3 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .slide-tablecell .slide-btn {
+        font-size: 14px;
+        margin: 0 5px 10px;
+        min-width: 165px;
+    }
+    .slide-tablecell .slide-buttons {
+        margin-bottom: 60px;
+    }
+    .school-connect-box h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .school-connect-box {
+        padding: 34px;
+    }
+    .box-icon {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 25px;
+    }
+    .box-icon>i{ 
+        font-size: 80px;
+    }
+    .lets-talk-main p {
+        line-height: 28px;
+    }
+    .our-partners-content p {
+        line-height: 28px;
+    }
+    .slide-tablecell .slide-text h2 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .slide-text ul {
+        margin-bottom: 20px;
+    }
+    .slide-tablecell .slide-text p {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .slide-text ul li {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .slide-text ul li::before {
+        top: 8px;
+    }
+    .slide-text ul li:last-child {
+        margin-bottom: 0;
+    }
+    .button {
+        min-height: 42px;
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .slider-preloader-wrap, .item {
+        height: 570px;
+    }
+    .slider_images {
+        position: relative;
+        top: -145px;
+        right: -70px;
+    }
+    .powered-by {
+        padding-left: 0;
+        top: 68%;
+    }
+    .slide-img-text {
+        left: 15px;
+        width: 160px;
+        height: 160px;
+        margin-top: -80px;
+        top: 30%;
+    }
+    .slide-img-text h4, .slide-img-text h5 {
+        font-size: 30px;
+    }
+    .mobile-menu-btn button{
+        background: transparent;
+        border: 0;
+        display: flex;
+        font-size: 30px;
+        margin-left: 10px;
+        padding: 0;
+    }
+    .mobile-menu-btn button i{
+        line-height: 1;
+        display: flex;
+    }
+    .open .mobile-menu-btn button {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        justify-content: flex-end;
+        padding: 20px;
+        color: #fff;
+    }
+    .open .mobile-menu-btn button i::before {
+        content: "\68";
+        font-size: 16px;
+    }
+}
+  @media only screen and (max-width: 767px) {
+    .slider-preloader-wrap, .item {
+        height: auto;
+    } 
+    .slide-tablecell .slide-buttons {
+        justify-content: center;
+    }
+    .slide-img {
+        position: relative;
+        order: 1;
+        width: 100%;
+    }
+    .slide-tablecell .col-md-7 {
+        order: 2;
+    }
+    .powered-by {
+        top: 70%;
+    }
+    .slide-tablecell .slide-text p {
+        padding-right: 0;
+    }
+    .slide-text ul {
+        padding: 0;
+    }
+    .slide-text {
+        padding: 0;
+    }
+    .contact-form, .lets-talk-main {
+        padding: 50px 00px;
+    }
+    .our-partners-content p {
+        margin-bottom: 40px;
+    }
+    .school-connect-main .col-md-4{
+        margin-bottom: 30px;
+    }
+    .school-connect-main .col-md-4:last-child {
+        margin-bottom: 0;
+    }
+    .lets-talk-main::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -9999px;
+        width: 9999px;
+        background: #3B4151;
+    }
+}
